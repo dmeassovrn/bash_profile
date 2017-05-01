@@ -58,7 +58,7 @@ alias gp='git cherry-pick'
 alias ll='ls -larth'
 
 alias vg="cd $DEV_PATH/unified-reporting/src/test/resources && vagrant halt && vagrant up &"
-alias vssh='vagrant ssh -- -R 8090:localhost:8090'
+alias vssh="cd $DEV_PATH/unified-reporting/src/test/resources && vagrant ssh -- -R 8090:localhost:8090"
 
 alias urs="cd $DEV_PATH/unified-reporting && mvn -Dspring.profiles.active=vagrant spring-boot:run"
 
